@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Qingyao Li</title>
+    <meta
+      name="description"
+      content="Qingyao Li is a Ph.D. candidate at Shanghai Jiao Tong University working on LLM reasoning, code intelligence, search, reinforcement learning, and execution feedback."
+    >
+    <meta property="og:title" content="Qingyao Li">
+    <meta
+      property="og:description"
+      content="Ph.D. candidate in Computer Science at Shanghai Jiao Tong University. Research on LLM reasoning and code intelligence."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/profile.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page">
+      <header class="topbar">
+        <a class="site-name" href="#top">Qingyao Li</a>
+        <nav class="topnav" aria-label="Primary navigation">
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <div class="layout" id="top">
+        <aside class="profile">
+          <img class="profile-photo" src="assets/img/profile.png" alt="Portrait of Qingyao Li">
+          <h1>Qingyao Li</h1>
+          <p class="name-cn">李庆尧</p>
+          <p class="role">Ph.D. Candidate</p>
+          <p class="affiliation">Shanghai Jiao Tong University</p>
+          <p class="focus">LLM reasoning, code intelligence, search, reinforcement learning, and execution feedback.</p>
+          <div class="profile-links" aria-label="Profile links">
+            <a href="mailto:ly890306@sjtu.edu.cn">Email</a>
+            <span aria-hidden="true">·</span>
+            <a href="assets/cv/QingyaoLi_CV_English.pdf">CV</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://scholar.google.com/">Scholar</a>
+            <span aria-hidden="true">·</span>
+            <a href="#publications">Papers</a>
+          </div>
+        </aside>
+
+        <main id="main" class="content">
+          <section class="intro" aria-labelledby="intro-title">
+            <h2 id="intro-title"><span class="h2-icon" aria-hidden="true">👋</span>About</h2>
+            <p>
+              I am a Ph.D. candidate in Computer Science and Technology at Shanghai Jiao Tong
+              University, advised by Prof. Weinan Zhang and Prof. Yong Yu. I am also a member of
+              the Zhiyuan Honorary Doctoral Program.
+            </p>
+            <p>
+              My research focuses on <strong>large language model reasoning and code intelligence</strong>.
+              I develop search- and learning-based algorithms, including Monte Carlo Tree Search and
+              reinforcement learning, that integrate structured test-time reasoning with fine-grained
+              execution feedback. The goal is to make LLM-based code agents more robust on complex
+              programming tasks.
+            </p>
+            <p>
+              Previously, I worked on intelligent education, especially reinforcement learning for
+              learning path recommendation. That experience continues to shape how I think about
+              sequential decision making, optimization, and adaptive feedback.
+            </p>
+          </section>
+
+          <section id="news" aria-labelledby="news-title">
+            <h2 id="news-title"><span class="h2-icon" aria-hidden="true">🔥</span>News</h2>
+            <ul class="news-list">
+              <li><span>Apr 2026</span> AdverMCTS is available as an ICML 2026 paper and arXiv preprint.</li>
+              <li><span>Mar 2026</span> Started a research internship on agentic reinforcement learning and general agents.</li>
+              <li><span>Sep 2025</span> Began a Ph.D. exchange at Nanyang Technological University with Prof. Bo An.</li>
+              <li><span>May 2025</span> Received the Huawei Excellent Intern award.</li>
+            </ul>
+          </section>
+
+          <section id="research" aria-labelledby="research-title">
+            <h2 id="research-title"><span class="h2-icon" aria-hidden="true">🎯</span>Research Interests</h2>
+            <ul class="interest-list">
+              <li><strong>LLM reasoning for code:</strong> test-time search, process verification, debugging, and execution feedback.</li>
+              <li><strong>Search and learning:</strong> MCTS, adversarial training, reinforcement learning, and model improvement from verification signals.</li>
+              <li><strong>Sequential decision making:</strong> reinforcement learning for adaptive recommendation and educational decision making.</li>
+            </ul>
+          </section>
+
+          <section id="publications" aria-labelledby="publications-title">
+            <h2 id="publications-title"><span class="h2-icon" aria-hidden="true">📚</span>Publications</h2>
+            <p class="note">* denotes equal contribution. Author names linked to my work are in bold.</p>
+
+            <h3 class="year-heading"><span>2026</span></h3>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://arxiv.org/abs/2604.10449" aria-label="AdverMCTS teaser">
+                <img src="assets/img/teasers/advermcts.svg" alt="MCTS tree with one branch flagged as adversarial — AdverMCTS">
+              </a>
+              <div class="pub-body">
+                <h4>AdverMCTS: Combating Pseudo-Correctness in Code Generation via Adversarial Monte Carlo Tree Search</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Weiwen Liu, Weinan Zhang, Yong Yu, Bo An</p>
+                <p class="venue"><span class="venue-badge venue-icml">ICML 2026</span></p>
+                <p class="summary">Adversarial MCTS that couples code search with active vulnerability discovery to reduce pseudo-correctness.</p>
+                <p class="links">
+                  <a href="assets/papers/advermcts-icml2026.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://arxiv.org/abs/2604.10449">arXiv</a>
+                </p>
+              </div>
+            </article>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://arxiv.org/abs/2510.14635" aria-label="ATGen teaser">
+                <img src="assets/img/teasers/atgen.svg" alt="Solver and adversary in a min-max loop — ATGen">
+              </a>
+              <div class="pub-body">
+                <h4>ATGen: Adversarial Reinforcement Learning for Test Case Generation</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Xinyi Dai, Weiwen Liu, Xiangyang Li, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang</p>
+                <p class="venue"><span class="venue-badge venue-iclr">ICLR 2026</span></p>
+                <p class="summary">An adversarial RL framework for generating challenging tests and stronger reward signals for code models.</p>
+                <p class="links">
+                  <a href="assets/papers/atgen-iclr2026.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://arxiv.org/abs/2510.14635">arXiv</a>
+                </p>
+              </div>
+            </article>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://arxiv.org/abs/2405.12442" aria-label="Concept Recommendation teaser">
+                <img src="assets/img/teasers/concept-rec.svg" alt="Knowledge graph with central concept node — Concept Recommendation">
+              </a>
+              <div class="pub-body">
+                <h4>Learning Structure and Knowledge Aware Representation with Large Language Models for Concept Recommendation</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Wei Xia, Kounianhua Du, Qiji Zhang, Weinan Zhang, Ruiming Tang, Yong Yu</p>
+                <p class="venue"><span class="venue-badge venue-aamas">AAMAS 2026</span> <span class="venue-tag">Extended Abstract</span></p>
+                <p class="summary">LLM-based concept representations with a graph-based adapter for knowledge-aware recommendation.</p>
+                <p class="links">
+                  <a href="https://arxiv.org/abs/2405.12442">arXiv</a>
+                </p>
+              </div>
+            </article>
+
+            <h3 class="year-heading"><span>2025</span></h3>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://www.arxiv.org/abs/2409.09584" aria-label="RethinkMCTS teaser">
+                <img src="assets/img/teasers/rethinkmcts.svg" alt="MCTS tree with rethink loop on an erroneous thought — RethinkMCTS">
+              </a>
+              <div class="pub-body">
+                <h4>RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Wei Xia, Kounianhua Du, Xinyi Dai, Ruiming Tang, Yasheng Wang, Yong Yu, Weinan Zhang</p>
+                <p class="venue"><span class="venue-badge venue-emnlp">EMNLP 2025</span></p>
+                <p class="summary">Thought-level MCTS with fine-grained execution feedback for correcting reasoning paths before code generation.</p>
+                <p class="links">
+                  <a href="assets/papers/rethinkmcts-emnlp2025.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://www.arxiv.org/abs/2409.09584">arXiv</a>
+                </p>
+              </div>
+            </article>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://arxiv.org/abs/2505.15356" aria-label="NL-Debugging teaser">
+                <img src="assets/img/teasers/nl-debugging.svg" alt="Code block with a natural language repair sketch — NL-Debugging">
+              </a>
+              <div class="pub-body">
+                <h4>NL-Debugging: Exploiting Natural Language as an Intermediate Representation for Code Debugging</h4>
+                <p class="authors">Weiming Zhang*, <strong>Qingyao Li*</strong>, Xinyi Dai, Jizheng Chen, Kounianhua Du, Weiwen Liu, Yasheng Wang, Ruiming Tang, Yong Yu, Weinan Zhang</p>
+                <p class="venue"><span class="venue-badge venue-emnlp-rose">EMNLP 2025</span></p>
+                <p class="summary">Natural language sketches as an intermediate representation for locating and repairing algorithmic flaws.</p>
+                <p class="links">
+                  <a href="assets/papers/nl-debugging-emnlp2025.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://arxiv.org/abs/2505.15356">arXiv</a>
+                </p>
+              </div>
+            </article>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://aclanthology.org/2025.findings-acl.428.pdf" aria-label="CodePRM teaser">
+                <img src="assets/img/teasers/codeprm.svg" alt="Chain of thought steps with process reward scores — CodePRM">
+              </a>
+              <div class="pub-body">
+                <h4>CodePRM: Execution Feedback-enhanced Process Reward Model for Code Generation</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Xinyi Dai, Xiangyang Li, Weinan Zhang, Yasheng Wang, Ruiming Tang, Yong Yu</p>
+                <p class="venue"><span class="venue-badge venue-acl">ACL 2025 Findings</span></p>
+                <p class="summary">A process reward model that uses execution feedback to score thought steps and guide generate-verify-refine search.</p>
+                <p class="links">
+                  <a href="assets/papers/codeprm-acl2025.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://aclanthology.org/2025.findings-acl.428.pdf">ACL Anthology</a>
+                </p>
+              </div>
+            </article>
+
+            <h3 class="year-heading"><span>2024 and Earlier</span></h3>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://dl.acm.org/doi/10.1145/3637528.3671872" aria-label="PFD teaser">
+                <img src="assets/img/teasers/pfd.svg" alt="Privileged teacher distilling knowledge to an RL student policy — PFD">
+              </a>
+              <div class="pub-body">
+                <h4>Privileged Knowledge State Distillation for Reinforcement Learning-based Educational Path Recommendation</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Wei Xia, Liang Yin, Jiarui Jin, Yong Yu</p>
+                <p class="venue"><span class="venue-badge venue-kdd">KDD 2024</span></p>
+                <p class="summary">Privileged feature distillation for stabilizing reinforcement learning in learning path recommendation.</p>
+                <p class="links">
+                  <a href="assets/papers/pfd-kdd2024.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://dl.acm.org/doi/10.1145/3637528.3671872">ACM DL</a>
+                </p>
+              </div>
+            </article>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://dl.acm.org/doi/10.1145/3583780.3614897" aria-label="GEHRL teaser">
+                <img src="assets/img/teasers/gehrl.svg" alt="High-level policy steering a graph of low-level concepts — GEHRL">
+              </a>
+              <div class="pub-body">
+                <h4>Graph Enhanced Hierarchical Reinforcement Learning for Goal-oriented Learning Path Recommendation</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Wei Xia, Li'ang Yin, Jian Shen, Renting Rui, Weinan Zhang, Xianyu Chen, Ruiming Tang, Yong Yu</p>
+                <p class="venue"><span class="venue-badge venue-cikm">CIKM 2023</span></p>
+                <p class="summary">Graph-enhanced hierarchical RL for decomposing learning goals and recommending concept-level learning paths.</p>
+                <p class="links">
+                  <a href="assets/papers/gehrl-cikm2023.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://dl.acm.org/doi/10.1145/3583780.3614897">ACM DL</a>
+                </p>
+              </div>
+            </article>
+
+            <article class="pub-item">
+              <a class="pub-teaser" href="https://arxiv.org/abs/2401.08664" aria-label="LLM4Edu survey teaser">
+                <img src="assets/img/teasers/llm-edu.svg" alt="Open book topped with a small neural-network glyph — LLM for Education">
+              </a>
+              <div class="pub-body">
+                <h4>Adapting Large Language Models for Education: Foundational Capabilities, Potentials, and Challenges</h4>
+                <p class="authors"><strong>Qingyao Li</strong>, Lingyue Fu, Weiming Zhang, Xianyu Chen, Jingwei Yu, Wei Xia, Weinan Zhang, Ruiming Tang, Yong Yu</p>
+                <p class="venue"><span class="venue-badge venue-preprint">Preprint</span></p>
+                <p class="summary">A survey of LLM capabilities and adaptation methods for education.</p>
+                <p class="links">
+                  <a href="assets/papers/llm-education-survey.pdf">paper</a>
+                  <span aria-hidden="true">·</span>
+                  <a href="https://arxiv.org/abs/2401.08664">arXiv</a>
+                </p>
+              </div>
+            </article>
+          </section>
+
+          <section id="experience" aria-labelledby="experience-title">
+            <h2 id="experience-title"><span class="h2-icon" aria-hidden="true">🎓</span>Experience &amp; Education</h2>
+            <div class="entry">
+              <span>2026.3 – present</span>
+              <div>
+                <h3>Research Intern, Xiaohongshu</h3>
+                <p>Agentic reinforcement learning and general agent research.</p>
+              </div>
+            </div>
+            <div class="entry">
+              <span>2025.9 – 2026.3</span>
+              <div>
+                <h3>Ph.D. Exchange, Nanyang Technological University</h3>
+                <p>College of Computing and Data Science. Advisor: Prof. Bo An.</p>
+              </div>
+            </div>
+            <div class="entry">
+              <span>2024.7 – 2025.5</span>
+              <div>
+                <h3>Student Researcher, Huawei Noah's Ark Lab</h3>
+                <p>Research on LLM code generation and reinforcement learning. Mentors: Wei Xia, Xinyi Dai, Ruiming Tang.</p>
+              </div>
+            </div>
+            <div class="entry">
+              <span>2022.9 – present</span>
+              <div>
+                <h3>Ph.D. Candidate, Shanghai Jiao Tong University</h3>
+                <p>Computer Science and Technology, Zhiyuan Honorary Doctoral Program. Advisors: Prof. Weinan Zhang and Prof. Yong Yu.</p>
+              </div>
+            </div>
+            <div class="entry">
+              <span>2018.9 – 2022.8</span>
+              <div>
+                <h3>B.S., Xi'an Jiao Tong University</h3>
+                <p>Automation, Qian Xuesen Class. GPA: 4.05/4.3, ranked 1/25.</p>
+              </div>
+            </div>
+          </section>
+
+          <section aria-labelledby="service-title">
+            <h2 id="service-title"><span class="h2-icon" aria-hidden="true">🏆</span>Honors, Service &amp; Patents</h2>
+            <ul class="plain-list">
+              <li>Huawei Excellent Intern, 2025</li>
+              <li>Outstanding Graduate of Xi'an Jiao Tong University, 2022</li>
+              <li>International Excellence Award in Baidu Big Data Competition, 2020</li>
+              <li>Conference reviewer: ICML 2026, KDD 2024, CIKM 2023, AAAI 2023</li>
+              <li>Concept recommendation system integrating human knowledge structures, 2024</li>
+              <li>A wireless charger for pacemakers, utility model patent, 2022</li>
+            </ul>
+          </section>
+
+          <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title"><span class="h2-icon" aria-hidden="true">✉️</span>Contact</h2>
+            <p>
+              I am interested in collaborations on LLM reasoning, code agents, reinforcement learning,
+              and robust evaluation for programming tasks.
+            </p>
+            <p class="links">
+              <a href="mailto:ly890306@sjtu.edu.cn">ly890306@sjtu.edu.cn</a>
+              <span aria-hidden="true">·</span>
+              <a href="assets/cv/QingyaoLi_CV_English.pdf">CV</a>
+            </p>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <span>© Qingyao Li</span>
+        <span>Last updated: May 2026</span>
+      </footer>
+    </div>
+  </body>
+</html>

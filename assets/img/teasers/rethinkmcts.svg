@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="MCTS tree with refine loop on an erroneous thought">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf5ff"/>
+      <stop offset="100%" stop-color="#ddd6fe"/>
+    </linearGradient>
+    <marker id="arrPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6d28d9"/>
+    </marker>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <circle cx="40" cy="40" r="48" fill="#ede9fe" fill-opacity="0.85"/>
+  <circle cx="285" cy="172" r="40" fill="#c4b5fd" fill-opacity="0.32"/>
+
+  <g stroke="#5b21b6" stroke-width="1.4" stroke-opacity="0.55" fill="none" stroke-linecap="round">
+    <line x1="160" y1="32" x2="110" y2="64"/>
+    <line x1="160" y1="32" x2="210" y2="64"/>
+    <line x1="110" y1="64" x2="86" y2="100"/>
+    <line x1="110" y1="64" x2="134" y2="100"/>
+    <line x1="210" y1="64" x2="186" y2="100"/>
+    <line x1="210" y1="64" x2="234" y2="100"/>
+  </g>
+  <g stroke="#5b21b6" stroke-width="1.6" fill="#fff">
+    <circle cx="160" cy="32" r="7" fill="#4c1d95" stroke="#4c1d95"/>
+    <circle cx="110" cy="64" r="5"/>
+    <circle cx="210" cy="64" r="5"/>
+    <circle cx="86" cy="100" r="4.5"/>
+    <circle cx="134" cy="100" r="6" fill="#dc2626" stroke="#b91c1c"/>
+    <circle cx="186" cy="100" r="4.5"/>
+    <circle cx="234" cy="100" r="4.5"/>
+  </g>
+  <path d="M 134 100 C 168 110, 178 76, 162 50" stroke="#6d28d9" stroke-width="1.6" stroke-dasharray="4 3" fill="none" marker-end="url(#arrPurple)"/>
+  <text x="178" y="86" font-family="Georgia,serif" font-style="italic" font-size="10" fill="#6d28d9">refine</text>
+
+  <line x1="130" y1="130" x2="190" y2="130" stroke="#6d28d9" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="160" y="155" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="16" font-weight="700" fill="#4c1d95">RethinkMCTS</text>
+  <text x="160" y="178" text-anchor="middle" font-family="-apple-system,'Helvetica Neue',sans-serif" font-size="10" fill="#6d28d9" letter-spacing="0.3">Refining Erroneous Thoughts in MCTS</text>
+</svg>
