@@ -233,6 +233,56 @@ img {
   min-width: 0;
 }
 
+/* Job market callout */
+.job-market {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin: 0 0 2.1rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--accent-soft);
+  border: 1px solid #f1ddc6;
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+}
+
+.job-market-tag {
+  flex: 0 0 auto;
+  padding: 2px 9px;
+  border-radius: 4px;
+  background: var(--accent);
+  color: var(--accent-soft);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.job-market p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.job-market strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.job-market a,
+.job-market a:visited {
+  color: var(--accent);
+  font-weight: 500;
+  border-bottom: 1px solid rgba(124, 45, 18, 0.3);
+}
+
+.job-market a:hover {
+  border-bottom-color: var(--accent);
+  text-decoration: none;
+}
+
 section {
   padding: 0 0 2.1rem;
   margin: 0 0 2.1rem;
@@ -712,6 +762,16 @@ section > p {
   .profile h1 {
     margin-top: 0.85rem;
     font-size: 1.85rem;
+  }
+
+  .job-market {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.85rem 0.95rem;
+  }
+
+  .job-market-tag {
+    align-self: flex-start;
   }
 
   .footer {
